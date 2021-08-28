@@ -1,0 +1,14 @@
+.navbar {
+  list-style-type: none;
+  padding-left: 15%;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar li {
+  display: inline;
+  float: left;
+  padding: 5%;
+}
