@@ -2,7 +2,6 @@ import React from 'react';
 import Home from './components/Home';
 import Help from './components/Help';
 import Green from './components/Green';
-import News from './components/News';
 import About from './components/About';
 
 import {
@@ -23,9 +22,6 @@ function App() {
     </Route>
     <Route exact path="/help">
       <Help/>
-      </Route>
-      <Route exact path="/news">
-      <News/>
       </Route>
       <Route exact path="/green">
       <Green/>

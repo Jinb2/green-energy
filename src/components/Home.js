@@ -40,7 +40,6 @@ const Home = () => {
                         </p>
                         <a href="https://climate.nasa.gov/"> Learn more...</a>
                     </div>
-
              
             </section>
 
@@ -51,12 +50,11 @@ const Home = () => {
                <li><Link to="/">Home</Link></li>
                <li><Link to="/help">Ways to Help</Link></li>
                <li><Link to="/green">A Green Look</Link></li>
-               <li><Link to="/news">News</Link></li>
                <li><Link to="/about">About</Link></li>
                 </ul>
             </div>
            
-
+            <div></div>
         </div>
     )
 }
