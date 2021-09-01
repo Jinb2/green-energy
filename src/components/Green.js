@@ -1,14 +1,14 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Charts from './Charts'
+import React from "react";
+import Navbar from "./Navbar";
+import Meteostat from "./Meteostat";
 
 const Green = () => {
-    return ( 
-        <div>
-            <Navbar/>
-     <Charts/>
-        </div>
-    )
-}
+  return (
+    <div>
+      <Navbar />
+      <Meteostat />
+    </div>
+  );
+};
 
 export default Green;
