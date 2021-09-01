@@ -18,6 +18,7 @@ const Meteostat = () => {
 
   getLocation();
 
+  /*
   const [timeZone, setTimeZone] = useState(null);
   const api_key = "DN4AGLA2I3FN";
 
@@ -34,13 +35,14 @@ const Meteostat = () => {
     setTimeZone(json["zoneName"]);
   }
 
+
   // calls function to get timezone
   useEffect(() => {
     if (lat && lng != null) {
       fetchTimeZone();
     }
   }, []);
-
+*/
   const [weatherStation, setWeatherStation] = useState(null);
 
   // gets weather station id
