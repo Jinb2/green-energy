@@ -43,6 +43,7 @@ const Meteostat = () => {
     }
   }, []);
 */
+
   const [weatherStation, setWeatherStation] = useState(null);
 
   // gets weather station id
@@ -93,7 +94,7 @@ const Meteostat = () => {
 
   return (
     <div>
-      <Charts />
+      <Charts weatherData={weatherData} />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Charts = () => {
+const Charts = (props) => {
   return <div></div>;
 };
 
