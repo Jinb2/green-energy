@@ -3,3 +3,11 @@ h1 {
   text-align: center;
   padding: 5% 5%;
 }
+
+.explanation {
+  font-size: 0.8em;
+  padding-top: 1%;
+  padding-left: 10%;
+  text-align: left;
+  width: 80%;
+}

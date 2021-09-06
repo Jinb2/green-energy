@@ -7,7 +7,8 @@ const Green = () => {
   return (
     <div className="green">
       <Navbar />
-      <h1>Global temperature anomalies from year 1 to present</h1>
+      <h1>Global Warming Live Graphs</h1>
+
       <Meteostat />
     </div>
   );
