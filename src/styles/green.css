@@ -1,0 +1,30 @@
+h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 5% 5%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.icon {
+  text-align: center;
+}
+.explanation {
+  font-size: 1.2em;
+  padding-top: 1%;
+  padding-left: 10%;
+  text-align: left;
+  width: 90%;
+}
+
+.hero {
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+
+#hook {
+  padding-top: 15%;
+  padding-bottom: 5%;
+}

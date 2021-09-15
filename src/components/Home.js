@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
-import video from '../media/hero-video.mp4'
+import video from '../media/hero-video.mp4';
 import '../styles/home.css';
+import {Link} from 'react-router-dom';
 
 const Home = () => {
     
@@ -29,25 +30,31 @@ const Home = () => {
                     <div className="overlay"></div>
 
                     <div className="text">
-                        <h2>Never Stop</h2>
-                        <h3>Exploring the World</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus nunc rutrum pharetra suscipit. Pellentesque feugiat rutrum pretium. Integer efficitur ultricies placerat. Cras ultrices, risus a egestas tempus, turpis ipsum vulputate orci, vitae sollicitudin magna risus eu elit. Pellentesque a hendrerit lacus, sit amet commodo arcu. Curabitur ut nulla sollicitudin, scelerisque felis non, suscipit tortor. Mauris id commodo libero, sit amet ullamcorper lectus. Fusce malesuada nec felis non tristique.</p>
-                        <a href="blah"> Explore</a>
+                        <h2>Go Green</h2>
+                        <h3>Saving The World</h3>
+                        <p>We only have one Earth. With the planet's average surface temperature having
+                            risen about 2.12 degrees Farenheit since the late 19th century, the looming destruction
+                            of many animal's homes (including ours) require your help. 
+                            <br></br>No more home means no more food, family,
+                            all the things you love.
+                        </p>
+                        <a href="https://climate.nasa.gov/"> Learn more...</a>
                     </div>
-
              
             </section>
 
+
+
             <div className="menu">
                 <ul>
-               <li><a href="blah">Home</a></li>
-               <li><a href="blah">Ways to Help</a></li>
-               <li><a href="blah">A Green Look</a></li>
-               <li><a href="blah">News</a></li>
-               <li><a href="blah">About</a></li>
+               <li><Link to="/">Home</Link></li>
+               <li><Link to="/help">Ways to Help</Link></li>
+               <li><Link to="/green">A Green Look</Link></li>
+               <li><Link to="/about">About</Link></li>
                 </ul>
             </div>
-
+           
+            <div></div>
         </div>
     )
 }
