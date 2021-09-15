@@ -265,16 +265,55 @@ const Charts = (props) => {
     <div className="line-graph">
       <h1>Global temperature anomalies from year 1880 to present</h1>
       <Line data={data} options={options} />
-      <p class="explanation"></p>
+      <p className="explanation">
+        Over the past century, the global surface temperature change has gone
+        from -0.22°C to an average of 1.31 °C. If this value increases by more
+        than 3°C, according to the IPCC, oceans would rise more than an average
+        of 3 feet higher by the year 2100. Those rising oceans would displace
+        680 million people in low-lying costal zones.
+      </p>
       <h1>Carbon Dioxide levels from 2011 to present</h1>
       <Line data={data2} options={options2} />
-      <p class="explanation"></p>
+      <p className="explanation">
+        CO2, a major contributor and greenhouse gas to climate change has been
+        on an increasing cycle from about 391.25 ppm in 2011 to a high of 416
+        ppm in 2021. This is in part due to all of the fossil fuels burned, cars
+        emissions, and deforestation which destroys trees that are important in
+        filtering out CO2. With this current rate of emissions we are looking at
+        least another 0.6°C increase in global temperature.
+      </p>
       <h1>Methane levels from 1983 to present</h1>
       <Line data={data3} options={options3} />
+      <p className="explanation">
+        {" "}
+        In order to sustain about 7.9 billion people, farmers have had to
+        increase the production of livestock to meet demands. However, cows
+        whenver they burp release a little bit of methane gas, a major
+        greenhouse gas. But all of this adds up which roughly accounts for 31%
+        of the methane gas emissions each year. However, cows are not the only
+        source as in 2019, 60% of methane released globally was from human
+        activities.{" "}
+      </p>
       <h1>Nitrous Oxide levels from 2001 to present </h1>
       <Line data={data4} options={options4} />
+      <p className="explanation">
+        Nitrous oxide is a gas that is produced by the combustion of fossil fuel
+        and solid waste, nitrogen-base fertilizers, sewage treatment plants,
+        natural processes, and other agricultural and industrial activities.
+        Being a greenhouse gas, it is the third largest heat-trapping gas in the
+        atmosphere and the biggest ozone-destroying compound emitted by human
+        activities.
+      </p>
       <h1>Melted Polar Ice Caps</h1>
       <Line data={data5} options={options5} />
+      <p className="explanation">
+        A byproduct of global tempearture increase, polar ice caps have begun to
+        melt at an alarming rate. According to www.worldwildlife.org, we lose
+        Artic sea ice at the rate of almost 13% per decade. This melting ice
+        further increases as there is less ice to reflect solar radiation. Most
+        importantly, the habitats of many animals will be destroyed as sea
+        levels countinue to rise, also eventually destroying our homes.
+      </p>
     </div>
   );
 };
