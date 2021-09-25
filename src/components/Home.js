@@ -56,11 +56,10 @@ const Home = () => {
             <Link to="/green">A Green Look</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/news">News</Link>
           </li>
         </ul>
       </div>
-
       <div></div>
     </div>
   );
