@@ -31,7 +31,7 @@ const Articles = (props) => {
 
   return (
     <div>
-      <h1>Whats going on in the "Green" world?</h1>
+      <h1>Latest News</h1>
       {articles.map((article) => (
         <Article
           title={article.title}
